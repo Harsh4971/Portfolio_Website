@@ -1,0 +1,221 @@
+.navbar-main{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar-left{
+    display: flex;
+    margin-top: 0.77vw;
+}
+
+.navbar-circle{
+    background: #5C5470;
+    width: 3.09vw;
+    height: 3.09vw;
+    border-radius: 50%;
+    margin-left: 2.2vw;
+}
+
+.navbar-initial{
+    /* margin-left: -1.3rem; */
+    margin-left: -1.43vw;
+    /* margin-top: -0.8rem; */
+    margin-top: -0.88vw;
+}
+
+.navbar-initial p{
+    font-size: 3.31vw;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+}
+
+.navbar-fullname{
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.1vw;
+    margin-top: 0.77vw;
+    font-size: 1.32vw;
+    font-weight: 600;
+    font-family: "Lora";
+}
+
+.navbar-right{
+    display: flex;
+    font-family: "Truculenta";
+}
+
+.navbar-contents{
+   display: flex;
+   /* gap: 4rem; */
+   gap: 4.41vw;
+   justify-content: center;
+   /* margin-right: 1rem; */
+   margin-right: 1.1vw;
+   /* margin-top: 1.2rem; */
+   margin-top: 1.32vw;
+   /* font-size: 1.2rem; */
+   font-size: 1.32vw;
+   font-weight: 500;
+   /* margin-left: 22rem; */
+   margin-left: 24.27vw;
+}
+
+.navbar-topic{
+    width: max-content;
+    height: max-content;
+    /* background: beige; */
+    /* padding: 0.4rem 1.4rem; */
+    padding: 0.44vw 1.54vw;
+    border-radius: 0.3rem;
+}
+
+.navbar-topic:hover{
+    background: #cfc7e4;
+    cursor: pointer;
+    /* color: rgb(251, 61, 61); */
+}
+
+.bars{
+    display: none;
+    margin-bottom: 0.88vw;
+}
+
+.navbar-contents-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0.5rem; */
+    gap: 0.55vw;
+    /* padding: 0.25rem 0.6rem; */
+    padding: 0.27vw 0.66vw;
+    background: #5C5470;
+    border-radius: 1rem;
+    margin-right: 0.77vw;
+    padding-bottom: 0.44vw;
+    z-index: 200;
+}
+
+.navbar-topic-b{
+    border-bottom: 1px solid #DBD8E3;
+    /* padding-bottom: 0.25rem; */
+    padding-bottom: 0.27vw;
+    width: 80%;
+    text-align: center;
+    z-index: 100;
+}
+
+/* @media screen and (max-width:1024px) {
+    .navbar-initial{
+        margin-left: -0.9rem;
+        margin-top: -0.1rem;
+    }
+    .navbar-initial p{
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: "Roboto Slab";
+    }
+    .navbar-fullname{
+        justify-content: center;
+        align-items: center;
+        margin-left: 0.8rem;
+        margin-top: 0.7rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        font-family: "Lora";
+    }
+    .navbar-contents{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin-right: 1rem;
+        margin-top: 1.2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 12rem;
+     }
+} */
+
+/* @media screen and (max-width:768px) {
+    .navbar-contents{
+        display: flex;
+        gap: 0.7rem;
+        justify-content: center;
+        margin-right: 1rem;
+        margin-top: 1.2rem;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 6rem;
+     }
+} */
+
+@media screen and (max-width:720px) {
+    .bars{
+        display: flex;
+        margin-right: 2rem;
+        margin-top: 2.8vw;
+    }
+    .navbar-contents{
+        display: none;
+    }
+    .navbar-circle{
+        background: #5C5470;
+        width: 4.09vw;
+        height: 4.09vw;
+        border-radius: 50%;
+        margin-left: 2.5vw;
+        margin-top: 1.4vw;
+    }
+    .navbar-initial{
+        /* margin-left: -1.3rem; */
+        margin-left: -1.8vw;
+        /* margin-top: -0.8rem; */
+        margin-top: 0.7vw;
+    }
+    .navbar-initial p{
+        font-size: 4.31vw;
+        font-weight: 600;
+        font-family: "Roboto Slab";
+    }
+    .navbar-fullname{
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.1vw;
+        margin-top: 2.5vw;
+        font-size: 2vw;
+        font-weight: 600;
+        font-family: "Lora";
+    }
+}
+@media screen and (max-width:550px) {
+    .navbar-circle{
+        background: #5C5470;
+        width: 4.9vw;
+        height: 4.9vw;
+        border-radius: 50%;
+        margin-left: 2.5vw;
+        margin-top: 1.4vw;
+    }
+    .navbar-initial{
+        /* margin-left: -1.3rem; */
+        margin-left: -1.8vw;
+        /* margin-top: -0.8rem; */
+        margin-top: 0.7vw;
+    }
+    .navbar-initial p{
+        font-size: 4.7vw;
+        font-weight: 600;
+        font-family: "Roboto Slab";
+    }
+    .navbar-fullname{
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.1vw;
+        margin-top: 2.9vw;
+        font-size: 2.3vw;
+        font-weight: 600;
+        font-family: "Lora";
+    }
+}
