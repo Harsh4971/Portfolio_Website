@@ -72,7 +72,7 @@ const WhatIDo = () => {
             <div className="content-left">
                 <h2>MERN Stack</h2>
                 <div className="what-text">
-                    COmplete knowledge of backend also using Node.js, MongoDb and mongoose
+                    Complete knowledge of backend also using Node.js, MongoDb and mongoose
                 </div>
             </div>
             <div className="content-right">
