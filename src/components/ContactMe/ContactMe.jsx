@@ -38,7 +38,7 @@ const ContactMe = () => {
       <form ref={form} className="cm-right" onSubmit={sendEmail}>
         <div><label htmlFor="name" className='cm-label'>Your Name:</label>
         <input type="text" id='name' className='cm-input cm-name' name='from_name' required/></div>
-        <div><label htmlFor="email" className='cm-label'>Email:</label>
+        <div><label htmlFor="email" className='cm-label'>Your Email:</label>
         <input type="text" id='email' className='cm-input cm-email' name='from_email' required/></div>
         <div><label htmlFor="message" className='cm-label'>Message:</label>
         <textarea type="text" id='message' className='cm-input cm-message' name='message' required/></div>
