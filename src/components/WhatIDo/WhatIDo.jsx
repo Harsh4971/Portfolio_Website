@@ -61,7 +61,7 @@ const WhatIDo = () => {
             <div className="content-left">
                 <h2>Web-Design</h2>
                 <div className="what-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Knowledge of HTML, CSS, Javascript, Material UI and other CSS libraries
                 </div>
             </div>
             <div className="content-right">
@@ -72,7 +72,7 @@ const WhatIDo = () => {
             <div className="content-left">
                 <h2>MERN Stack</h2>
                 <div className="what-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    COmplete knowledge of backend also using Node.js, MongoDb and mongoose
                 </div>
             </div>
             <div className="content-right">
